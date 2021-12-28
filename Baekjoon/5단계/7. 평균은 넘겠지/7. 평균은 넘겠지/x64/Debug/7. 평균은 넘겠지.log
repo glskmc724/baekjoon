@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\5단계\7. 평균은 넘겠지\7. 평균은 넘겠지\main.c(11,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\5단계\7. 평균은 넘겠지\7. 평균은 넘겠지\main.c(14,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\5단계\7. 평균은 넘겠지\7. 평균은 넘겠지\main.c(18,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  7. 평균은 넘겠지.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\5단계\7. 평균은 넘겠지\x64\Debug\7. 평균은 넘겠지.exe
