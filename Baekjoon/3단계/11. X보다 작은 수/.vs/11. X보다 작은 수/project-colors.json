@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3a06d315-acc2-4a2e-a4af-20b1e509b0f1": {
+      "ProjectGuid": "3a06d315-acc2-4a2e-a4af-20b1e509b0f1",
+      "DisplayName": "11. X보다 작은 수",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
