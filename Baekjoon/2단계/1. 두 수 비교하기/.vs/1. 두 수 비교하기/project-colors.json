@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e0baee13-652f-4569-97f8-e0caaa2325d4": {
+      "ProjectGuid": "e0baee13-652f-4569-97f8-e0caaa2325d4",
+      "DisplayName": "1. 두 수 비교하기",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

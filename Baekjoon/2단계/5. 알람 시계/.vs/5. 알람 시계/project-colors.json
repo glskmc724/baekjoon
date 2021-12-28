@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1ec5a5a0-d6d3-4656-b9c8-ef013bf2cb28": {
+      "ProjectGuid": "1ec5a5a0-d6d3-4656-b9c8-ef013bf2cb28",
+      "DisplayName": "5. 알람 시계",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
