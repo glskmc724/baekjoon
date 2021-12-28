@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9c4603f4-35a0-424b-85a3-28f26ffbe4c9": {
+      "ProjectGuid": "9c4603f4-35a0-424b-85a3-28f26ffbe4c9",
+      "DisplayName": "1. 구구단",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
