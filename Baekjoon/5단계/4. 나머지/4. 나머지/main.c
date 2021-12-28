@@ -8,30 +8,21 @@ int main(void)
 {
 	int* arr;
 	int count = 0;
+	int num;
 	
-	arr = (int*)malloc(sizeof(int) * COUNT);
-	
-	for (int n = 0; n < COUNT; n++)
+	arr = (int*)malloc(sizeof(int) * NUM_DIVIDE);
+	for (int n = 0; n < NUM_DIVIDE; n++)
 	{
-		scanf("%d", &arr[n]);
+		arr[n] = 0;
 	}
-
 	for (int n = 0; n < COUNT; n++)
 	{
-		arr[n] %= NUM_DIVIDE;
+		scanf("%d", &num);
+		arr[num % NUM_DIVIDE] += 1;
 	}
-
-	for (int n = 0; n < COUNT; n++)
+	for (int n = 0; n < NUM_DIVIDE; n++)
 	{
-		int result = 0;
-		for (int i = n + 1; i < COUNT; i++)
-		{
-			if (arr[n] == arr[i])
-			{
-				result = 1;
-			}
-		}
-		if (result != 1)
+		if (arr[n] >= 1)
 		{
 			count += 1;
 		}
