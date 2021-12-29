@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\7단계\5. 단어 공부\5. 단어 공부\main.c(17,17): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\7단계\5. 단어 공부\5. 단어 공부\main.c(16,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  5. 단어 공부.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\7단계\5. 단어 공부\x64\Debug\5. 단어 공부.exe
