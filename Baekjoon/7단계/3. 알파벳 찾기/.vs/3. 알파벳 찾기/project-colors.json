@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ebfc7734-1eed-44cc-9d74-8fa7f3af4a64": {
+      "ProjectGuid": "ebfc7734-1eed-44cc-9d74-8fa7f3af4a64",
+      "DisplayName": "3. 알파벳 찾기",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
