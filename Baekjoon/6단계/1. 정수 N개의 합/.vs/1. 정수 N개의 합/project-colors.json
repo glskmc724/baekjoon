@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fcc1a70b-8bc3-48e4-b2be-e7ebc1d12d5b": {
+      "ProjectGuid": "fcc1a70b-8bc3-48e4-b2be-e7ebc1d12d5b",
+      "DisplayName": "1. 정수 N개의 합",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
