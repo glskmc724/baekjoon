@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\7단계\10. 그룹 단어 체커\10. 그룹 단어 체커\main.c(17,17): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\7단계\10. 그룹 단어 체커\10. 그룹 단어 체커\main.c(9,6): warning C4101: 'flag' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\7단계\10. 그룹 단어 체커\10. 그룹 단어 체커\main.c(41,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\7단계\10. 그룹 단어 체커\10. 그룹 단어 체커\main.c(45,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  10. 그룹 단어 체커.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\7단계\10. 그룹 단어 체커\x64\Debug\10. 그룹 단어 체커.exe

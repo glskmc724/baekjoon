@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "fc2cfae8-976c-4794-a999-ebcb7af40e6a": {
+      "ProjectGuid": "fc2cfae8-976c-4794-a999-ebcb7af40e6a",
+      "DisplayName": "10. 그룹 단어 체커",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
