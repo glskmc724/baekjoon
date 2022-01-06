@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "d84eead2-d1d8-4a1a-8a71-b2fb1daec8ce": {
+      "ProjectGuid": "d84eead2-d1d8-4a1a-8a71-b2fb1daec8ce",
+      "DisplayName": "5. ACM 호텔",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
