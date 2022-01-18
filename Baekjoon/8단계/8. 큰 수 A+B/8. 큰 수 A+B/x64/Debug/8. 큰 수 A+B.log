@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\8단계\8. 큰 수 A+B\8. 큰 수 A+B\main.c(8,28): warning C4013: 'strlen'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\8단계\8. 큰 수 A+B\8. 큰 수 A+B\main.c(25,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  8. 큰 수 A+B.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\8단계\8. 큰 수 A+B\x64\Debug\8. 큰 수 A+B.exe
