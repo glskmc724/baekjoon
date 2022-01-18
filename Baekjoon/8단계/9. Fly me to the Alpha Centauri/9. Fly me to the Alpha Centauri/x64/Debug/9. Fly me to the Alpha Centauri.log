@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\8단계\9. Fly me to the Alpha Centauri\9. Fly me to the Alpha Centauri\main.c(16,16): warning C4244: '=': 'double'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\8단계\9. Fly me to the Alpha Centauri\9. Fly me to the Alpha Centauri\main.c(20,19): warning C4244: '=': 'double'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\8단계\9. Fly me to the Alpha Centauri\9. Fly me to the Alpha Centauri\main.c(14,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\8단계\9. Fly me to the Alpha Centauri\9. Fly me to the Alpha Centauri\main.c(9,15): warning C4101: 'loop' :참조되지 않은 지역 변수입니다.
+  9. Fly me to the Alpha Centauri.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\8단계\9. Fly me to the Alpha Centauri\x64\Debug\9. Fly me to the Alpha Centauri.exe
