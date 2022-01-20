@@ -1,0 +1,5 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\9단계\5. 베르트랑 공준\5. 베르트랑 공준\main.c(7,6): warning C4101: 'prime' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\9단계\5. 베르트랑 공준\5. 베르트랑 공준\main.c(34,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\9단계\5. 베르트랑 공준\5. 베르트랑 공준\main.c(25): warning C4716: 'eratostenes': 값을 반환해야 합니다.
+  5. 베르트랑 공준.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\9단계\5. 베르트랑 공준\x64\Debug\5. 베르트랑 공준.exe
