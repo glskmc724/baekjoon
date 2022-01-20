@@ -1,0 +1,6 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\9단계\6. 골드바흐의 추측\6. 골드바흐의 추측\main.c(7,6): warning C4101: 'prime' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\9단계\6. 골드바흐의 추측\6. 골드바흐의 추측\main.c(32,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\9단계\6. 골드바흐의 추측\6. 골드바흐의 추측\main.c(35,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\9단계\6. 골드바흐의 추측\6. 골드바흐의 추측\main.c(25): warning C4716: 'eratostenes': 값을 반환해야 합니다.
+  6. 골드바흐의 추측.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\9단계\6. 골드바흐의 추측\x64\Debug\6. 골드바흐의 추측.exe
