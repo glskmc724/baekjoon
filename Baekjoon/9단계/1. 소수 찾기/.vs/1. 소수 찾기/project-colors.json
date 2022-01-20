@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2c6f4cf3-f895-4611-8caf-de4632d16694": {
+      "ProjectGuid": "2c6f4cf3-f895-4611-8caf-de4632d16694",
+      "DisplayName": "1. 소수 찾기",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
