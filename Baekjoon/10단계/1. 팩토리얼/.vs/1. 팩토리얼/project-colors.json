@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "08f0934e-e1fa-41a5-9a59-5230b5724121": {
+      "ProjectGuid": "08f0934e-e1fa-41a5-9a59-5230b5724121",
+      "DisplayName": "1. 팩토리얼",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
