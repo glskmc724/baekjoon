@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\11단계\5. 영화감독 숌\5. 영화감독 숌\main.cpp(4,1): warning C4005: 'INT_MAX': 매크로 재정의
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.30.30705\include\limits.h(36): message : 'INT_MAX'의 이전 정의를 참조하십시오.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\11단계\5. 영화감독 숌\5. 영화감독 숌\main.cpp(18,36): warning C4307: '-': 부호 있는 정수 계열 상수 오버플로입니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\11단계\5. 영화감독 숌\5. 영화감독 숌\main.cpp(13,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\11단계\5. 영화감독 숌\5. 영화감독 숌\main.cpp(23,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\11단계\5. 영화감독 숌\5. 영화감독 숌\main.cpp(10,6): warning C4101: 'count' :참조되지 않은 지역 변수입니다.
+  5. 영화감독 숌.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\11단계\5. 영화감독 숌\x64\Debug\5. 영화감독 숌.exe
