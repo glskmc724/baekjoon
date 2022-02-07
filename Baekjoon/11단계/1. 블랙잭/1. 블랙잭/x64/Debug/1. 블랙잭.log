@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\11단계\1. 블랙잭\1. 블랙잭\main.c(14,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\11단계\1. 블랙잭\1. 블랙잭\main.c(18,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  1. 블랙잭.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\11단계\1. 블랙잭\x64\Debug\1. 블랙잭.exe
