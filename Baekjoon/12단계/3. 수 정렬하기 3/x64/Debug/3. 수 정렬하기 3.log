@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\12단계\3. 수 정렬하기 3\main.cpp(11,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\12단계\3. 수 정렬하기 3\main.cpp(19,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  3. 수 정렬하기 3.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\12단계\x64\Debug\3. 수 정렬하기 3.exe
