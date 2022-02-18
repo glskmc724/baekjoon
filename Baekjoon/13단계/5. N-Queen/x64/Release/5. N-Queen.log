@@ -1,0 +1,8 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\13단계\5. N-Queen\main.cpp(6,6): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\13단계\5. N-Queen\main.cpp(36,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  5. N-Queen.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\13단계\x64\Release\5. N-Queen.exe
