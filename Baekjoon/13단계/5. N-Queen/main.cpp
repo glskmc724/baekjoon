@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 
 int idx = 0; 
 int cnt = 0;
@@ -83,36 +84,19 @@ void check(int** map, int x, int y, int count, int size)
 	if (count == size)
 	{
 		cnt += 1;
+		return;
 	}
 
-	for (i = y; i < size; i++)
+	for (j = x; j < size; j++)
 	{
-		for (j = x; j < size; j++)
+		if (can_die(map, size, j, count) == 0)
 		{
-			if (can_die(map, size, j, i) == 0)
-			{
-				map[i][j] = 1;
-				check(map, 0, i + 1, count + 1, size);
-				map[i][j] = 0;
-			}
+			map[count][j] = 1;
+			check(map, 0, count + 1, count + 1, size);
+			map[count][j] = 0;
 		}
 	}
 } 
-
-int map_check(int** map1, int** map2, int size)
-{
-	for (int i = 0; i < size; i++)
-	{
-		for (int j = 0; j < size; j++)
-		{
-			if (map1[i][j] != map2[i][j])
-			{
-				return 0;
-			}
-		}
-	}
-	return 1;
-}
 
 int main(void)
 {
@@ -121,36 +105,43 @@ int main(void)
 	int size;
 	int count;
 	int sum = 0;
+	clock_t start, end;
+	double result;
 
-	scanf("%d", &size);
-
-	idx = 0;
-
-	map = (int**)malloc(sizeof(int*) * size);
-	for (int i = 0; i < size; i++)
+	while (1)
 	{
-		map[i] = (int*)malloc(sizeof(int) * size);
-	}
+		scanf("%d", &size);
 
-	/*
-	for (int i = 0; i < size; i++)
-	{
-		for (int j = 0; j < size; j++)
+		if (size == 0)
 		{
-			map = (int**)malloc(sizeof(int*) * size);
-			for (int i = 0; i < size; i++)
-			{
-				map[i] = (int*)malloc(sizeof(int) * size);
-			}
-
-			map[i][j] = 1;
-			check(map, 0, 0, 1, size);
+			break;
 		}
-	}
-	*/
-	check(map, 0, 0, 0, size);
 
-	//map[1][0] = 1;
-	//check(map, 0, 0, 1, size);
-	printf("%d\n", cnt);
+		idx = 0;
+
+		map = (int**)malloc(sizeof(int*) * size);
+		for (int i = 0; i < size; i++)
+		{
+			map[i] = (int*)malloc(sizeof(int) * size);
+		}
+
+		for (int i = 0; i < size; i++)
+		{
+			for (int j = 0; j < size; j++)
+			{
+				map[i][j] = 0;
+			}
+		}
+
+		start = clock();
+		check(map, 0, 0, 0, size);
+		end = clock();
+
+		result = (double)(end - start) / 1000;
+
+		//map[1][0] = 1;
+		//check(map, 0, 0, 1, size);
+		printf("%d\n", cnt);
+		printf("경과시간: %.2lfsec\n", result);
+	}
 }
