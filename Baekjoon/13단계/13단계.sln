@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4. N과 M (4)", "4. N과 M 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5. N-Queen", "5. N-Queen\5. N-Queen.vcxproj", "{8F8B97AD-91BD-42F9-A832-F0BF40348A23}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "6. 스도쿠", "6. 스도쿠\6. 스도쿠.vcxproj", "{8174B289-6BAE-4ADC-B460-38155B3F44FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{8F8B97AD-91BD-42F9-A832-F0BF40348A23}.Release|x64.Build.0 = Release|x64
 		{8F8B97AD-91BD-42F9-A832-F0BF40348A23}.Release|x86.ActiveCfg = Release|Win32
 		{8F8B97AD-91BD-42F9-A832-F0BF40348A23}.Release|x86.Build.0 = Release|Win32
+		{8174B289-6BAE-4ADC-B460-38155B3F44FE}.Debug|x64.ActiveCfg = Debug|x64
+		{8174B289-6BAE-4ADC-B460-38155B3F44FE}.Debug|x64.Build.0 = Debug|x64
+		{8174B289-6BAE-4ADC-B460-38155B3F44FE}.Debug|x86.ActiveCfg = Debug|Win32
+		{8174B289-6BAE-4ADC-B460-38155B3F44FE}.Debug|x86.Build.0 = Debug|Win32
+		{8174B289-6BAE-4ADC-B460-38155B3F44FE}.Release|x64.ActiveCfg = Release|x64
+		{8174B289-6BAE-4ADC-B460-38155B3F44FE}.Release|x64.Build.0 = Release|x64
+		{8174B289-6BAE-4ADC-B460-38155B3F44FE}.Release|x86.ActiveCfg = Release|Win32
+		{8174B289-6BAE-4ADC-B460-38155B3F44FE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
