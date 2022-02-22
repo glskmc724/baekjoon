@@ -5,6 +5,11 @@
       "ProjectGuid": "fb33216e-8b03-4726-8b27-0976a5f50bfd",
       "DisplayName": "9. 크로아티아 알파벳",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1
