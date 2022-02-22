@@ -6,33 +6,23 @@
 
 int flag = 0;
 
-int* sudoku(int** map, int x, int y)
+int sudoku(int** map, int x, int y, int value)
 {
 	int idx;
-	int* arr;
-
-	arr = (int*)malloc(sizeof(int) * LENGTH);
 
 	for (int i = 0; i < LENGTH; i++)
 	{
-		arr[i] = 0;
-	}
-
-	for (int i = 0; i < LENGTH; i++)
-	{
-		idx = map[i][x];
-		if (idx != 0)
+		if (map[i][x] == value)
 		{
-			arr[idx - 1] += 1;
+			return 0;
 		}
 	}
 
 	for (int i = 0; i < LENGTH; i++)
 	{
-		idx = map[y][i];
-		if (idx != 0)
+		if (map[y][i] == value)
 		{
-			arr[idx - 1] += 1;
+			return 0;
 		}
 	}
 	
@@ -40,24 +30,21 @@ int* sudoku(int** map, int x, int y)
 	{
 		for (int j = 0; j < BLOCK_LENGTH; j++)
 		{
-			idx = map[(y / 3) * 3 + i][(x / 3) * 3 + j];
-			if (idx != 0)
+			if (value == map[(y / 3) * 3 + i][(x / 3) * 3 + j])
 			{
-				arr[idx - 1] += 1;
+				return 0;
 			}
 		}
 	}
 
-	return arr;
+	return 1;
 }
 
-void check(int** map, int count, int max)
+void check(int** map, int x, int y, int count, int max)
 {
-	int* result;
-	
-	if (count >= max)
+	if (count == max)
 	{
-		printf("\n");
+		flag = 1;
 		for (int i = 0; i < LENGTH; i++)
 		{
 			for (int j = 0; j < LENGTH; j++)
@@ -67,32 +54,35 @@ void check(int** map, int count, int max)
 			printf("\n");
 		}
 		printf("\n");
-		flag = 1;
 		return;
 	}
 
-	for (int i = 0; i < LENGTH; i++)
+	if (map[y][x] == 0)
 	{
-		for (int j = 0; j < LENGTH; j++)
+		for (int i = 0; i < LENGTH; i++)
 		{
-			if (map[i][j] == 0)
+			if (sudoku(map, x, y, i + 1) == 1)
 			{
-				result = sudoku(map, j, i);
-				for (int k = 0; k < LENGTH; k++)
-				{
-					if (result[k] == 0)
-					{
-						map[i][j] = k + 1;
-						check(map, count + 1, max);
-						map[i][j] = 0;
-					}
-				}
-				if (flag == 1)
-				{
-					return;
-				}
-				free(result);
+				map[y][x] = i + 1;
+				check(map, x, y, count + 1, max);
 			}
+
+		}
+		if (flag == 1)
+		{
+			return;
+		}
+		map[y][x] = 0;
+	}
+	else
+	{
+		if (x == LENGTH - 1)
+		{
+			check(map, 0, y + 1, count, max);
+		}
+		else
+		{
+			check(map, x + 1, y, count, max);
 		}
 	}
 }
@@ -120,5 +110,5 @@ int main(void)
 		}
 	}
 	
-	check(map, 0, count);
+	check(map, 0, 0, 0, count);
 }
