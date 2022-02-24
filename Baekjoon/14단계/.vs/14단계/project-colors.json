@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "61d86c8a-c6da-4a84-9e5b-6e9200d213a0": {
+      "ProjectGuid": "61d86c8a-c6da-4a84-9e5b-6e9200d213a0",
+      "DisplayName": "1. 피보나치 함수",
+      "ColorIndex": 0
+    },
+    "13bccf40-1184-4023-9dd8-31bc630e0482": {
+      "ProjectGuid": "13bccf40-1184-4023-9dd8-31bc630e0482",
+      "DisplayName": "2. 신나는 함수 실행",
+      "ColorIndex": 1
+    },
+    "3fae3e9c-c489-41e4-a20d-d652d37512ae": {
+      "ProjectGuid": "3fae3e9c-c489-41e4-a20d-d652d37512ae",
+      "DisplayName": "3. 01타일",
+      "ColorIndex": 2
+    },
+    "840ef043-155c-4d8f-80af-a1d3708b0c99": {
+      "ProjectGuid": "840ef043-155c-4d8f-80af-a1d3708b0c99",
+      "DisplayName": "4. 파도반 수열",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "기타 파일",
+      "ColorIndex": -1
+    },
+    "37191b29-ed25-4a1c-9e73-1ecd94de591f": {
+      "ProjectGuid": "37191b29-ed25-4a1c-9e73-1ecd94de591f",
+      "DisplayName": "5. RGB거리",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
