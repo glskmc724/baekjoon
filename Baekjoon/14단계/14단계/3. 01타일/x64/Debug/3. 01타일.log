@@ -1,3 +1,0 @@
-﻿  main.cpp
-C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\14단계\3. 01타일\main.cpp(33,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
-  3. 01타일.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\14단계\x64\Debug\3. 01타일.exe
