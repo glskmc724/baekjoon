@@ -4,71 +4,71 @@
 
 #define NUM_COLORS 3
 
-int min = INT_MAX;
-
 typedef struct
 {
 	char color; // 1: Red, 2: Green, 3: Blue
 	int cost;
 } house;
 
-void check(int** map, house* arr, int house_idx, int arr_idx, int house_max)
+int min(int a, int b)
+{
+	if (a > b)
+	{
+		return b;
+	}
+	else
+	{
+		return a;
+	}
+}
+
+void check(int** map, int num_houses)
 {
 	int sum;
-
-	if (house_idx == house_max)
+	int** cost;
+	int result;
+	
+	cost = (int**)malloc(sizeof(int*) * num_houses);
+	for (int i = 0; i < num_houses; i++)
 	{
-		sum = 0;
-
-		for (int i = 0; i < arr_idx; i++)
-		{
-			sum += arr[i].cost;
-			//printf("(color: %d cost: %d), ", arr[i].color, arr[i].cost);
-		}
-		//printf("\n");
-
-		if (min > sum)
-		{
-			min = sum;
-		}
-
-		return;
+		cost[i] = (int*)malloc(sizeof(int*) * NUM_COLORS);
 	}
 
-	for (int i = 0; i < NUM_COLORS; i++)
-	{
-		if (arr_idx > 0)
-		{
-			if (arr[arr_idx - 1].color == (i + 1))
-			{
-				continue;
-			}
-		}
+	cost[0][0] = map[0][0];
+	cost[0][1] = map[0][1];
+	cost[0][2] = map[0][2];
 
-		arr[arr_idx].cost = map[house_idx][i];
-		arr[arr_idx].color = i + 1;
-		check(map, arr, house_idx + 1, arr_idx + 1, house_max);
-		arr[arr_idx].cost = 0;
-		arr[arr_idx].color = 0;
+	for (int i = 1; i < num_houses; i++)
+	{
+		cost[i][0] = map[i][0] + min(cost[i - 1][1], cost[i - 1][2]);
+		cost[i][1] = map[i][1] + min(cost[i - 1][0], cost[i - 1][2]);
+		cost[i][2] = map[i][2] + min(cost[i - 1][0], cost[i - 1][1]);
 	}
+
+	result = INT_MAX;
+	for (int j = 0; j < NUM_COLORS; j++)
+	{
+		if (result > cost[num_houses - 1][j])
+		{
+			result = cost[num_houses - 1][j];
+		}
+	}
+	printf("%d\n", result);
 }
 
 int main(void)
 {
 	int N;
-	int** color;
-	house* arr;
+	int** map;
 	scanf("%d", &N);
-	color = (int**)malloc(sizeof(int*) * N);
-	arr = (house*)malloc(sizeof(house) * N);
+	map = (int**)malloc(sizeof(int*) * N);
 	for (int i = 0; i < N; i++)
 	{
-		color[i] = (int*)malloc(sizeof(int) * NUM_COLORS);
+		map[i] = (int*)malloc(sizeof(int) * NUM_COLORS);
 		for (int j = 0; j < NUM_COLORS; j++)
 		{
-			scanf("%d", &color[i][j]);
+			scanf("%d", &map[i][j]);
 		}
 	}
-	check(color, arr, 0, 0, N);
-	printf("%d\n", min);
+	check(map, N);
 }
