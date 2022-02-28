@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\6. 정수 삼각형\main.cpp(61,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\6. 정수 삼각형\main.cpp(81,4): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  6. 정수 삼각형.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\x64\Debug\6. 정수 삼각형.exe
