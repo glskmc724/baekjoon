@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "61ac4118-86dc-4061-8e93-0158c0c98d08": {
+      "ProjectGuid": "61ac4118-86dc-4061-8e93-0158c0c98d08",
+      "DisplayName": "10. 포도주 시식",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
