@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "5e80f66a-b911-4398-859d-42ffec108fcb": {
+      "ProjectGuid": "5e80f66a-b911-4398-859d-42ffec108fcb",
+      "DisplayName": "12. 가장 긴 바이토닉 부분 수열",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
