@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\14. LCS\14. LCS\main.cpp(19,47): warning C4267: '=': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\14. LCS\14. LCS\main.cpp(17,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\14. LCS\14. LCS\main.cpp(18,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  14. LCS.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\14. LCS\x64\Debug\14. LCS.exe
