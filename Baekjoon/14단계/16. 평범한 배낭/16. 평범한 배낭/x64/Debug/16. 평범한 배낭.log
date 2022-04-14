@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\16. 평범한 배낭\16. 평범한 배낭\main.cpp(34,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\16. 평범한 배낭\16. 평범한 배낭\main.cpp(47,3): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\16. 평범한 배낭\16. 평범한 배낭\main.cpp(28,18): warning C4101: 'weight' :참조되지 않은 지역 변수입니다.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\16. 평범한 배낭\16. 평범한 배낭\main.cpp(27,15): warning C4101: 'num' :참조되지 않은 지역 변수입니다.
+  16. 평범한 배낭.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\14단계\16. 평범한 배낭\x64\Debug\16. 평범한 배낭.exe
