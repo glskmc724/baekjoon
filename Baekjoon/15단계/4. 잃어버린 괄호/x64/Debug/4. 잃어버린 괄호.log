@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\15단계\4. 잃어버린 괄호\main.cpp(34,8): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\15단계\4. 잃어버린 괄호\main.cpp(40,9): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\15단계\4. 잃어버린 괄호\main.cpp(65,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  4. 잃어버린 괄호.vcxproj -> C:\Users\Administrator\Desktop\Private\kmc724\Baekjoon\15단계\x64\Debug\4. 잃어버린 괄호.exe
